@@ -184,4 +184,4 @@ history = model.fit_generator(generate_train(data,batch_size),nb_epoch=50,
 ```python
 
 ```
-I have used help from different Udacity students on Slack channel and there Medium posts for this project. I also referred Nvidia architecture for thid problem.
+Thanks - I have used help from different Udacity students on Slack channel and through Medium posts for this project. I also referred Nvidia architecture for this problem.
