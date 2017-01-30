@@ -184,4 +184,15 @@ history = model.fit_generator(generate_train(data,batch_size),nb_epoch=50,
 ```python
 
 ```
+
+
+# Running the program
+Please download simulator from this:
+https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f290_simulator-macos/simulator-macos.zip
+
+Now download this repository and use following command to run the program.
+
+$$ python drive.py model.json
+
+
 Thanks - I have used help from different Udacity students on Slack channel and through Medium posts for this project. I also referred Nvidia architecture for this problem.
