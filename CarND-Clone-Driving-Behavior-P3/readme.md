@@ -196,6 +196,7 @@ $$ python drive.py model.json
 
 # Demo
 Here you can find the video of this model in action:
-https://www.youtube.com/watch?v=FFtHTgIFsh8&feature=youtu.be
+
+https://youtu.be/FFtHTgIFsh8
 
 Thanks - I have used help from different Udacity students on Slack channel and through Medium posts for this project. I also referred Nvidia architecture for this problem.
