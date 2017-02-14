@@ -29,12 +29,12 @@ class tracker():
         r_center = np.argmax(np.convolve(window,r_sum))-window_width/2+int(warped.shape[1]/2)
         # One slice
         window_centroids.append((l_center,r_center))
-        
+        old_l_center = l_center
         #Looping for remaining slices
         for level in range(1,(int)(warped.shape[0]/window_height)):
             image_layer = np.sum(warped[int(warped.shape[0]-(level+1)*window_height):
                                         int(warped.shape[0]-level*window_height),:], axis=0)
-        
+            
             conv_signal = np.convolve(window,image_layer)
             offset = window_width/2
             # Find the best left centroid by using past left center as a reference
@@ -48,6 +48,10 @@ class tracker():
             r_max_idx = int(max(r_center+offset+margin,warped.shape[1]))
             r_center = np.argmax(conv_signal[r_min_idx:r_max_idx]) + r_min_idx - offset
             # Append to centroid array
+            if abs(old_l_center-l_center)>200:
+                l_center = old_l_center
+            else:
+                old_l_center = l_center
             window_centroids.append((l_center,r_center))
         
         self.recent_centers.append(window_centroids)
