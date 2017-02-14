@@ -1,7 +1,3 @@
-##Writeup Template
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
 
 **Advanced Lane Finding Project**
 
@@ -24,7 +20,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/warped_straight_lines.jpg "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
+[video1]: ./output1_tracked.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 ###Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -121,4 +117,4 @@ Here's a [link to my video result](./project_video.mp4)
 
 Overall this project is advanced level and required good knowledge of image processing.   
 
-If I had more time, I would implement a better binary image processing, by trying more color models and channels. Lane line pixal identification is also need more refinement, so I would work on that in future.
+If I had more time, I would implement a better binary image processing, by trying more color models and channels. Lane line pixal identification is also some need more refinement, so I would work on that in future.
