@@ -90,7 +90,8 @@ I verified that my perspective transform was working as expected by drawing the 
 
 ####4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-The code for this step is in the fifth code cell of the IPython notebook located in ./Main.ipynb
+The code for this step is in the fifth code cell of the IPython notebook located in ./Main.ipynb and ./tracker.py file.
+I have cut the image into several slices horizontally and for each slice applied convolution. Using this I found the left and right window center for each slice. These centers are used to fit a second order polynomial to pixel positions in each lane line.
 
 ![alt text][image5]
 
