@@ -97,11 +97,11 @@ I have cut the image into several slices horizontally and for each slice applied
 
 ####5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I did this in lines # through # in my code in `my_other_file.py`
+Code for this appears in in block 5 of Main.ipynb IPython notebook. I took the mean of left and right lane curve to find the center of the camera. Then distance from center of image and camera center is the position of the vehicle with respect to center. For curavature, I obtain polynomial for the lane lines in meters and use curvature finding maths formula.
 
 ####6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+Here is an example of my result on a test image:
 
 ![alt text][image6]
 
