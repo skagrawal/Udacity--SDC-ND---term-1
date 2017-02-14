@@ -97,7 +97,7 @@ I have cut the image into several slices horizontally and for each slice applied
 
 ####5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-Code for this appears in in block 5 of Main.ipynb IPython notebook. I took the mean of left and right lane curve to find the center of the camera. Then distance from center of image and camera center is the position of the vehicle with respect to center. For curavature, I obtain polynomial for the lane lines in meters and use curvature finding maths formula.
+Code for this appears in in block 5 of Main.ipynb IPython notebook. I took the mean of left and right lane curve to find the center of the camera. Then distance from center of image and camera center is the position of the vehicle with respect to center. For curavature, I obtain polynomial for the left lane line in meters per pixal and use curvature finding maths formula.
 
 ####6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
@@ -119,5 +119,6 @@ Here's a [link to my video result](./project_video.mp4)
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+Overall this project is advanced level and required good knowledge of image processing.   
 
+If I had more time, I would implement a better binary image processing, by trying more color models and channels. Lane line pixal identification is also need more refinement, so I would work on that in future.
