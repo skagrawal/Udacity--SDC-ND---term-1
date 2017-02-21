@@ -1,2 +1,13 @@
 # Udacity--SDC-ND---term-1
-Projects done as part of Udacity SDC ND term 1
+This repository includes projects done as Self-Driving Car Engineer Nanodegree term 1 by Udacity.
+
+Project 1 - Finding Lane Lines on the Road using computer vision
+
+Project 2 - Traffic Sign Classifier using deep learning and TensorFlow
+
+Project 3 - Behavioral Cloning using deep learning and Keras
+
+Project 4 - Advanced Lane Finding using computer vision
+
+Project 5 - Vehicle Detection and Tracking using machine learning and computer vision
+
