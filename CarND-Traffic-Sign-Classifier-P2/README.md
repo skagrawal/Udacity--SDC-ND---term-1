@@ -1,5 +1,4 @@
 ## Project: Build a Traffic Sign Recognition Program
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 ### Overview
 
 In this project, I have used deep neural networks and convolutional neural networks to classify traffic signs. 
@@ -30,5 +29,5 @@ git clone https://github.com/udacity/CarND-Traffic-Signs
 cd CarND-Traffic-Signs
 jupyter notebook Traffic_Signs_Recognition.ipynb
 ```
-3. Follow the instructions in the `Traffic_Signs_Recognition.ipynb` notebook.
+3. Follow the instructions in the `Traffic_Sign_Classifier.ipynb` notebook.
 
