@@ -13,6 +13,7 @@ Project 5 - Vehicle Detection and Tracking using machine learning and computer v
 
 
 
+### Setup
 There are two ways to get up and running:
 
 ## [Anaconda Environment](doc/configure_via_anaconda.md)
