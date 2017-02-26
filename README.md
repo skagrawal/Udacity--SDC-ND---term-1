@@ -12,9 +12,10 @@ Project 4 - Advanced Lane Finding using computer vision
 Project 5 - Vehicle Detection and Tracking using machine learning and computer vision
 
 
-This project requires **Python 3.5** and the following Python libraries installed:
+
 
 ### Dependencies
+This project requires **Python 3.5** and the following Python libraries installed:
 
 - [Jupyter](http://jupyter.org/)
 - [NumPy](http://www.numpy.org/)
