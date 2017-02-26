@@ -14,6 +14,8 @@ Project 5 - Vehicle Detection and Tracking using machine learning and computer v
 
 This project requires **Python 3.5** and the following Python libraries installed:
 
+### Dependencies
+
 - [Jupyter](http://jupyter.org/)
 - [NumPy](http://www.numpy.org/)
 - [SciPy](https://www.scipy.org/)
